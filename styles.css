@@ -1,0 +1,240 @@
+/* navbar  */
+.topnav {
+    background-color: #EBF4FF;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2979EC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    transition: scale
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+  
+ 
+  button {
+    background-color: #2979EC;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 12px 30px 12px 30px;
+    color: white;
+
+  }
+  .left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    
+}
+.right{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+.wrapper {
+  height: 10vh;
+  display: flex ;
+  justify-content: space-between;
+  top: 0;
+  padding-bottom : 40px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+      flex-direction: row;
+  }
+}
+
+/* intro */
+
+.i-wrapper{
+    background-color:#EBF4FF;
+
+}
+
+.i-row {
+    display: flex;
+    margin-left: 7rem;
+    padding-bottom: 3rem ;
+    
+  }
+  
+  .i-column {
+    flex: 50%;
+  }
+  .i {
+    font-size: 30px;
+  }
+  .m {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .i-wrapper {
+    display: center ;
+    flex-direction: column;
+    
+
+  }
+  .p{
+    display: flex;
+    text-align: center;
+    margin-left: -3rem;
+    margin-right: -3rem;
+ 
+
+  }
+}
+
+/* service */
+
+.s-wrapper{
+    background-color:#fdfdfd;
+    margin-top: 5rem;
+    overflow: hidden;
+
+
+}
+
+.row {
+    display: flex;
+    margin-left: 7rem;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  .i {
+font-size: 30px;
+  }
+  .m {
+    font-size: 30px;
+    font-weight: bold;
+}
+.image {
+    margin-left: 10px;
+
+}
+@media screen and (max-width: 480px) {
+  .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    transform: scale(.9);
+    margin-left: 3rem;
+    margin-right: 1rem;
+
+  }
+  .s-p {
+    margin: 1rem -1.4rem 0 -1.8rem;
+    text-align: center;
+  }
+  .s-h {
+    margin: 0 1rem 0 1rem;
+    text-align: center;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+}
+
+/* purpose */
+
+.p-wrapper{
+    background-color:#fdfdfd;
+    margin-top: 3rem;
+    overflow: hidden;
+
+
+}
+
+.p-row {
+    display: flex;
+    margin-left: 2rem;
+  }
+  
+  .p-column {
+    flex: 50%;
+    margin-left: 2.5rem;
+
+  }
+
+
+  .i {
+font-size: 30px;
+  }
+  .m {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .p-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1.6rem;
+  }
+  .p-p {
+    margin: 1rem -1rem 0 -1rem;
+    text-align: center;
+  }
+  .p-h {
+    margin: 0 rem 0 1rem;
+    text-align: center;
+  }
+}
+
+
+/* footer  */
+
+.f-wrapper {
+    background-color: #0A459E;
+    margin-top: 4rem;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+
+  
+  .center {
+    padding: 70px 0;
+    text-align: center;
+  }
+  .f-text {
+      color: white;
+  }
+ 
+
+  .f-button {
+    background-color: #FFBE3C;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 12px 30px 12px 30px;
+    color: #0A459E;
+    font-weight: bold;
+    margin-top: 2rem;
+
+  }
